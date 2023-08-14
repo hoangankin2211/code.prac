@@ -5,8 +5,8 @@
 using namespace std;
 void solve(vector<int> nums,int target){
     map<int,pair<int,int>> mp;
-    
-    
+
+        
     for (int i=0;i<nums.size();i++){
         if (mp[nums[i]].second==1) {
             cout << "["<<mp[nums[i]].first<<","<<i<<"]";

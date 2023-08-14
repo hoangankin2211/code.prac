@@ -14,7 +14,7 @@ class Solution {
 
     List<MapEntry<int, int>> list = count.entries.toList();
     list.sort((a, b) => b.value.compareTo(a.value));
-    print(list);
+
     return [for (int i = 0; i < k; i++) list.elementAt(i).key];
   }
 }
