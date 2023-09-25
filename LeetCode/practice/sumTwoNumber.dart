@@ -20,6 +20,8 @@ class Solution {
       }
     }
 
+    String test = "asdf";
+
     return result;
   }
 }
