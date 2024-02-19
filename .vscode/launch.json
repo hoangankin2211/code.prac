@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BitOperator",
+            "request": "launch",
+            "mainClass": "BitOperator",
+            "projectName": "problem-solving_44c46075"
+        },
+        {
+            "type": "java",
             "name": "Launch Union_Find",
             "request": "launch",
             "mainClass": "Union_Find",

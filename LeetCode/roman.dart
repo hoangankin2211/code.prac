@@ -20,7 +20,6 @@ class Solution {
 
   int romanToInt(String s) {
     if (s.isEmpty) return 0;
-git 
     if (s.length == 1) {
       return encode[s] ?? 0;
     }

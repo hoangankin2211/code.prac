@@ -108,7 +108,6 @@
         "heapify"
     ],
     "java.project.sourcePaths": [
-        ".vscode/Coursera",
-        "Coursera/Week01"
+        "LeetCode/practice"
     ]
 }
