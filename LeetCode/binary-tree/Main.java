@@ -16,8 +16,8 @@ public class Main{
         if (root == null){
             return true;
         }
-        
-        if (root.val > val 
+         
+        if (root.val > val  
         && isSubTreeGreater(root.left,val) 
         && isSubTreeGreater(root.right,val)) return true;
         
@@ -54,14 +54,3 @@ public class Main{
         // TreeTraverse.postOrderTraverse(tree.root);
     }
 }
-
-/**
- * 
- *                          5
- *                  1               7
- *                      2       6
- *                          3
- *                              4
- *                          
- * 
- */

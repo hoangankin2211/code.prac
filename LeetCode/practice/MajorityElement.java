@@ -1,5 +1,3 @@
-import java.util.Random;
-
 class MajorityElement {
         // public int majorityElement(int[] nums) {
         //     if (nums.length == 1){
