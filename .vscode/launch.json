@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InvertBinaryTree",
+            "request": "launch",
+            "mainClass": "InvertBinaryTree",
+            "projectName": "leet-code_7cb46351"
+        },
+        {
+            "type": "java",
             "name": "BitOperator",
             "request": "launch",
             "mainClass": "BitOperator",
