@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ContainerWithMostWater",
+            "request": "launch",
+            "mainClass": "prac_03092023.ContainerWithMostWater",
+            "projectName": "LeetCode_bdbd81eb"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "BubbleSort",
+            "projectName": "LeetCode_bdbd81eb"
+        },
+        {
+            "type": "java",
+            "name": "ContainerWithMostWater",
+            "request": "launch",
+            "mainClass": "ContainerWithMostWater",
+            "projectName": "LeetCode_bdbd81eb"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "LeetCode_bdbd81eb"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "LeetCode_bdbd81eb"
+        },
+        {
+            "type": "java",
             "name": "FindInOrderSuccessor",
             "request": "launch",
             "mainClass": "FindInOrderSuccessor",

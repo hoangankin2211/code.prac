@@ -4,6 +4,7 @@ class Solution {
             return 0;
         }  
 
+        
         int maxProfit = 0;
         int cheapestPrice = prices[0];
 
