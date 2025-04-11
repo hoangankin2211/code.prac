@@ -1,4 +1,4 @@
-public class Queue<E>{
+ class Queue<E>{
     QueueElement<E> head;
     QueueElement<E> tail;
     int size;

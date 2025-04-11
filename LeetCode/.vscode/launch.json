@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SubTreeAnotherTree",
+            "request": "launch",
+            "mainClass": "SubTreeAnotherTree",
+            "projectName": "LeetCode_bdbd81eb"
+        },
+        {
+            "type": "java",
             "name": "ContainerWithMostWater",
             "request": "launch",
             "mainClass": "prac_03092023.ContainerWithMostWater",
