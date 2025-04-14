@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LowestCommonAncestorOfBT2",
+            "request": "launch",
+            "mainClass": "LowestCommonAncestorOfBT2",
+            "projectName": "LeetCode_bdbd81eb"
+        },
+        {
+            "type": "java",
+            "name": "LowestCommonAncestorOfBT",
+            "request": "launch",
+            "mainClass": "LowestCommonAncestorOfBT",
+            "projectName": "LeetCode_bdbd81eb"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTreeLevelOrderTraversal",
+            "request": "launch",
+            "mainClass": "BinaryTreeLevelOrderTraversal",
+            "projectName": "LeetCode_bdbd81eb"
+        },
+        {
+            "type": "java",
             "name": "SubTreeAnotherTree",
             "request": "launch",
             "mainClass": "SubTreeAnotherTree",
