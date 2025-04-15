@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ConstructBinaryTree",
+            "request": "launch",
+            "mainClass": "ConstructBinaryTree",
+            "projectName": "LeetCode_bdbd81eb"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTreeRightSideView",
+            "request": "launch",
+            "mainClass": "BinaryTreeRightSideView",
+            "projectName": "LeetCode_bdbd81eb"
+        },
+        {
+            "type": "java",
             "name": "LowestCommonAncestorOfBT2",
             "request": "launch",
             "mainClass": "LowestCommonAncestorOfBT2",
