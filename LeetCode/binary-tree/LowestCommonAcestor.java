@@ -1,14 +1,16 @@
-public class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
-    }
-}
+import java.util.ArrayList;
+import java.util.List;
 
 class Solution {
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+    
+        TreeNode(int x) {
+            val = x;
+        }
+    }
     private List<TreeNode> findPath(TreeNode root, TreeNode p) {
         if (root == null || p == null) {
             return new ArrayList<>();
@@ -66,6 +68,16 @@ class Solution {
 }
 
 class Solution2 {
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+    
+        TreeNode(int x) {
+            val = x;
+        }
+    }
+    
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null || p == null || q == null)
             return null;
@@ -91,6 +103,6 @@ class Solution2 {
 
     public static void main(String[] args){
 
-        new Solution().lowestCommonAncestor(new TreeNode(1), new TreeNode(2), new TreeNode(3));
+        new Solution2().lowestCommonAncestor(new TreeNode(1), new TreeNode(2), new TreeNode(3));
     }
 }
