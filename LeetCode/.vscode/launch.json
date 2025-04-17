@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PathSumIII",
+            "request": "launch",
+            "mainClass": "PathSumIII",
+            "projectName": "LeetCode_bdbd81eb"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTreeZigzagTraversal",
+            "request": "launch",
+            "mainClass": "BinaryTreeZigzagTraversal",
+            "projectName": "LeetCode_bdbd81eb"
+        },
+        {
+            "type": "java",
+            "name": "MaximumWidthOfBT",
+            "request": "launch",
+            "mainClass": "MaximumWidthOfBT",
+            "projectName": "LeetCode_bdbd81eb"
+        },
+        {
+            "type": "java",
+            "name": "PathSumII",
+            "request": "launch",
+            "mainClass": "PathSumII",
+            "projectName": "LeetCode_bdbd81eb"
+        },
+        {
+            "type": "java",
             "name": "ConstructBinaryTree",
             "request": "launch",
             "mainClass": "ConstructBinaryTree",
