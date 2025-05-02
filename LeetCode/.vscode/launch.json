@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AllNodesDistanceKInBT",
+            "request": "launch",
+            "mainClass": "AllNodesDistanceKInBT",
+            "projectName": "LeetCode_bdbd81eb"
+        },
+        {
+            "type": "java",
             "name": "PathSumIII",
             "request": "launch",
             "mainClass": "PathSumIII",

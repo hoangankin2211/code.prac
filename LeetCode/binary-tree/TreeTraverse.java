@@ -1,4 +1,5 @@
 import java.util.LinkedList;
+import java.util.Queue;
 
 public class TreeTraverse {
     public static void preOrderTraverse(TreeNode root) {
@@ -33,7 +34,7 @@ public class TreeTraverse {
             return;
         }
 
-        final Queue<TreeNode> queue = new LinkedList();
+        final Queue<TreeNode> queue = new LinkedList<>();
 
         queue.add(root);
 

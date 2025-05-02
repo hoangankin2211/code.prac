@@ -12,11 +12,7 @@ Explanation: The paths that sum to 8 are shown.
 */
 
 import java.util.Queue;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.LinkedList;
-import java.util.List;
 
 public class PathSumIII {
     static class TreeNode {
@@ -61,28 +57,45 @@ public class PathSumIII {
 
         /*
          * Input: root =
-         * [1000000000,1000000000,null,294967296,null,1000000000,null,1000000000,null,
-         * 1000000000], targetSum = 0
+         * [1000000000,1000000000,null,294967296,null,1000000000,null,1000000000,null,1000000000], targetSum = 0
          * Output: 0
          */
-        System.out.println(new PathSumIII().pathSum(buildTree(new Integer[] { 1000000000, 1000000000, null, 294967296,
-                null, 1000000000, null, 1000000000, null, 1000000000 }), 0));
+        System.out.println(new PathSumIII().pathSum(buildTree(new Integer[] {1000000000,1000000000,null,294967296,null,1000000000,null,1000000000,null,1000000000 }), -1));
     }
 
     public int pathSum(TreeNode root, int targetSum) {
+        int result = 0;
+
         if (root == null) {
-            return 0;
+            return result;
         }
-        
-        return pathSumII(root,targetSum);
+
+        Queue<TreeNode> nQueue = new LinkedList<>();
+        nQueue.add(root);
+
+        while (!nQueue.isEmpty()) {
+            TreeNode node = nQueue.poll();
+            result += pathSumII(node, targetSum);
+            
+            if (node.left != null) {
+                nQueue.add(node.left);
+            }
+            if (node.right != null) {
+                nQueue.add(node.right);
+            }
+        }
+
+        return result;
     }
 
-    public int pathSumII(TreeNode root, long targetSum) {
+    public long pathSumII(TreeNode root, long targetSum) {
         if (root == null) {
             return 0;
         }
+
         long currentTarget = targetSum - root.val;
         int count = 0;
+
         if (currentTarget == 0) {
             count = 1;
         }

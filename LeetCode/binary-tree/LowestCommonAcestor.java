@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Solution {
-    public class TreeNode {
+    static public class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
@@ -68,7 +68,7 @@ class Solution {
 }
 
 class Solution2 {
-    public class TreeNode {
+    static public class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
